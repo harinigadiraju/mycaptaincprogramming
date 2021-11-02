@@ -2,7 +2,7 @@
  void main()
  {
  	int n;
- 	printf("Enter a random number between 1-5");
+ 	printf("Enter a random number between 1-5 : ");
  	scanf("%d", &n);
  	switch(n)
  	{
@@ -21,7 +21,7 @@
  		case 5 :
  			printf("Food Item :- Sandwich \n Price :- Rs 149 ");
  			break;
-		case default :
+		default :
  			printf("INVALID INPUT ");
  			break;
 	 }
